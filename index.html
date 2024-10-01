@@ -1,17 +1,50 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>yunfachi.txt</title><style>
+<!DOCTYPE html><html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>yunfachi.txt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
 body {
+    all: unset;
     background-color: black;
     color: white;
     white-space: pre;
-    font-family: mono;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    translate: -50% -50%;
+    line-height: 1.92vmin;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    transform-origin: center center;
 }
+@media (max-width: calc(100vh)) {
+  body {
+    transform: scale(1.2);
+  }
+}
+@media (max-width: calc(90vh)) {
+  body {
+    transform: scale(1.4);
+  }
+}
+
 ::selection {
     background-color: white;
     color: black;
 }
 art {
-    font-size: 4.5px;
-    line-height: 4.5px;
+    font-family: monospace, monospace;
+    font-size: 0.51vmin;
+    line-height: 0.51vmin;
+    display: block;
+}
+text {
+    font-size: 1.28vmin;
+    line-height: 1.92vmin;
     display: block;
 }
 a {
@@ -129,12 +162,12 @@ xxxxxxxxxxxxxxxxx++++++++++xxx+x+;x$x:::::::::::::::::::::::::::::::::::::::::::
 xxxxxxxxxxxxxxxxxx++++++++++xx+++;+$x::::::::::::::::::::::.::::::::::::::::::::::::::::::::::::::.:+xxx:.::::::::::::::::::::::::::::::::::::::::::::::::::::::::+X;+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxx++++++xxxxxxx+;;Xx:::::::::::::::::::::::.::::::::::::::::::::::::::::::::.:....;xXxx:.:.::::::::::::::::::::::::::::::.:::::::::::::::::::::::xX:+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxx++xxxxxx+xxx+;XX;:::::::::::::::::::::::.:::::::::::::::::::::::::::::::::...:xxxx+.....:::::::::::::::::::::::::::::::::::::::::::::::::::::xx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</art>
-<text>                        yunfachi                        
-                                                        
-Developer working on NixOS, Unicode enjoyer.            
-                                                        
-Current projects: <a target="_blank" href="https://github.com/yunfachi/nix-config">nix-config</a>, <a target="_blank" href="https://github.com/yunfachi/denix">denix</a>, <a target="_blank" href="https://github.com/deshiro">deshiro</a>            
-Experience: over 6.0 years                              
-                                                        
-Github: <a target="_blank" href="https://github.com/yunfachi">@yunfachi</a>                    Telegram: <a target="_blank" href="https://t.me/yunfachi">@yunfachi</a>
+<text>                    yunfachi                    
+                                                
+Developer working on NixOS, Unicode enjoyer.    
+                                                
+Current projects: <a target="_blank" href="https://github.com/yunfachi/nix-config">nix-config</a>, <a target="_blank" href="https://github.com/yunfachi/denix">denix</a>, <a target="_blank" href="https://github.com/deshiro">deshiro</a>     
+Experience: over 6.0 years                      
+                                                
+Github: <a target="_blank" href="https://github.com/yunfachi">@yunfachi</a>            Telegram: <a target="_blank" href="https://t.me/yunfachi">@yunfachi</a>
 </text></body></html>
