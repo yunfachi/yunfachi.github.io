@@ -50,10 +50,12 @@
       }
     ''}
 
+    Then generate the lock file by running this command in the `dev/` directory: `${slib.highlightCode "sh" "nix flake lock"}`.
+
     > Can I do this without flake-parts?
     > Yes, but you'll need to implement your own mechanism for separating the `dev` flake's logic into another file. This can be a bit tricky. You may want to consider the second option below instead.
 
-    Then we'll create a ${slib.anchorNewTab "https://github.com/hercules-ci/flake-parts" "flake-parts"} module in it. Don't worry, flake-parts is not required in your root flake:
+    Now we'll create a ${slib.anchorNewTab "https://github.com/hercules-ci/flake-parts" "flake-parts"} module in it. Don't worry, flake-parts is not required in your root flake:
 
     ${slib.highlightCode "nix" ''
       # dev/config.nix
@@ -124,6 +126,7 @@
 
     This approach is also used in the following projects:
 
+    - ${slib.styledAnchor "https://github.com/unnamed-systems/nix-secrets"} (without flake-parts in the root flake)
     - ${slib.styledAnchor "https://github.com/NixOS/flake-compat"} (without flake-parts in the root flake)
     - ${slib.styledAnchor "https://github.com/hercules-ci/flake-parts"} (with flake-parts in the root flake)
 
