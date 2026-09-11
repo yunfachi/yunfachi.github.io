@@ -94,6 +94,6 @@
 
     Then, during a rebuild or at boot, nix-secrets will decrypt the secrets from storage and mount them at their configured paths.
 
-    You can read the full documentation at ${slib.anchorNewTab "github:unnamed-systems/nix-secrets?path=docs" "https://github.com/unnamed-systems/nix-secrets/tree/master/docs"}.
+    You can read the full documentation at ${slib.anchorNewTab "https://github.com/unnamed-systems/nix-secrets/tree/master/docs" "github:unnamed-systems/nix-secrets?path=docs"}.
   '';
 }
