@@ -50,7 +50,9 @@
       }
     ''}
 
-    Then generate the lock file by running this command in the `dev/` directory: `${slib.highlightCode "sh" "nix flake lock"}`.
+    Then generate the lock file by running this command in the `dev/` directory:
+
+    ${slib.highlightCode "sh" "nix flake lock"}
 
     > Can I do this without flake-parts?
     > Yes, but you'll need to implement your own mechanism for separating the `dev` flake's logic into another file. This can be a bit tricky. You may want to consider the second option below instead.
@@ -155,7 +157,9 @@
       }
     ''}
 
-    Then generate the lock file by running this command in the `dev/` directory: `${slib.highlightCode "sh" "nix flake lock"}`.
+    Then generate the lock file by running this command in the `dev/` directory:
+
+    ${slib.highlightCode "sh" "nix flake lock"}
 
     And, finally, you have to access the `dev` inputs from the root flake:
 
