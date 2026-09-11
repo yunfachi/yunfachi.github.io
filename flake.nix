@@ -1,5 +1,5 @@
 {
-  description = "TODO";
+  description = "My personal website, built with Nix and no JavaSlop";
 
   inputs = {
     nixpkgs.url = "https://nixos.org/channels/nixos-unstable/nixexprs.tar.xz";
